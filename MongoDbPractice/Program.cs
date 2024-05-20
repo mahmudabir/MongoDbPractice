@@ -6,7 +6,7 @@ namespace MongoDbPractice
     {
         static async Task Main(string[] args)
         {
-            await new Test().RunAsync();
+            await new App().RunAsync();
         }
     }
 }

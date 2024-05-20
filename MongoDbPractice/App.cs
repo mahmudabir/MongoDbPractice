@@ -7,12 +7,12 @@ using MongoDbPractice.DataAccess.Models;
 
 namespace CQRS.Kit.MethodInterceptor
 {
-    public class Test
+    public class App
     {
         private readonly IServiceProvider serviceProvider;
         private readonly int loopCount = 10;
 
-        public Test()
+        public App()
         {
             string connectionString = "mongodb+srv://abir:Password12@mongodbcluster.3hvxclb.mongodb.net/";
             string databaseName = "MongoDbPractice";
